@@ -65,7 +65,7 @@ a{
 
 .header{
     background: linear-gradient(rgb(66, 66, 66,0.3), rgb(66, 66, 66,0.3)),
-    url(../images/header-bg.jpg);
+    url(header-bg.jpg);
     background-position: center;
     background-size: cover;
     height: 30rem;
