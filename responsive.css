@@ -1,0 +1,117 @@
+@media (max-width:380px) {
+    .header-content--title{
+        font-size: 3.5rem;
+    }
+    .Destination__title{
+        font-size: 2.3rem;
+    }
+    .place__caption-btn{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.3rem;
+    }
+    .place__cation-title{
+        font-size: 1.5rem;
+    }
+    .service__title{
+        font-size: 1.5rem;
+    }
+    .service__img{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    .newsletter__title{
+        max-width: 16rem;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer__list{
+        margin-left: 0;
+        width: 100%;
+        
+    }
+   
+}
+
+
+@media (min-width:576px) {
+    .header-content--caption{
+        font-size: 1.2rem;
+    }
+   
+}
+@media (min-width:768px) {
+    
+    .nav_menu{
+        display: none;
+    }
+    .nav__btn{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .Newsletter{
+        flex-direction: row;
+         text-align: left;
+         align-items: center;
+         justify-content: space-between;
+    }
+    .newsletter__content{
+        flex-basis: 60% ;
+        padding-right: 2rem;
+    }
+    .newsletter__baner{
+        flex-basis: 40% ;
+    }
+   
+}  
+@media (min-width:992px) {
+    .header__links{
+        display: block;
+    }
+    .newsletter__content {
+        padding-right: 4rem;
+     }
+     .footer-app{
+        display: block;
+     }
+      .footer-app--mobile{
+        display: none;
+      }
+      .footer__wrapper{
+        display: flex;
+      }
+     .footer__right{
+        margin-left: 1rem;
+    }
+    .footer__scroll{
+        left: auto;
+    }
+   
+}
+@media (min-width:1200px) {
+    .Newsletter{
+        padding: 3rem 6rem;
+    }
+    .newsletter__content{
+        flex-basis: auto ;
+        width: 60rem ;
+    }
+    .newsletter__baner{
+        flex-basis: auto ;
+        width: 42rem;
+    }
+}
+@media (min-width:1400px) {
+
+}
+@media (max-height:440px) {
+    .header-content--title{
+        font-size: 2.5rem;
+    }
+    .services{
+        margin-top: -6.5rem;
+    }
+}
